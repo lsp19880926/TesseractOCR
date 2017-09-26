@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+  <LinearLayout
+      xmlns:tools="http://schemas.android.com/tools"
+      android:id="@+id/activity_main"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:paddingLeft="@dimen/activity_horizontal_margin"
+      android:paddingRight="@dimen/activity_horizontal_margin"
+      android:paddingTop="@dimen/activity_vertical_margin"
+      android:paddingBottom="@dimen/activity_vertical_margin"
+      android:orientation="vertical"
+      tools:context="com.lsp.tesseractorc.MainActivity"
+      >
+    <TextView
+        android:id="@+id/tv_ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="未就绪"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始转换"
+        android:textColor="#FFFFFF"
+        android:padding="20dp"
+        android:background="#000000"
+        />
+
+    <ImageView
+        android:id="@+id/imv_orc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/textimage"
+        />
+    <TextView
+        android:id="@+id/tv_orc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="识别后显示"
+        android:textColor="#FF0000"
+        android:padding="15dp"
+        />
+  </LinearLayout>
+</ScrollView>
